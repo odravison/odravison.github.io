@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+sass:
+  sass_dir: assets/css
+
 title: OdraVISION
 owner_name: Odravison Amaral
 
@@ -30,7 +33,6 @@ github:
   repository_page_url: https://github.com/odravison/odravison.github.io
   repository_page_name: odravison.github.io
   profile_pic: https://avatars.githubusercontent.com/u/7316524?v=4
-  
 
 # Build settings
 plugins:

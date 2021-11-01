@@ -1,0 +1,5 @@
+---
+layout: default
+title: Posts
+---
+<h1>Posts</h1>
