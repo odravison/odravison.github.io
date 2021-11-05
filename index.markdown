@@ -2,4 +2,9 @@
 layout: default
 title: Home
 ---
-<h1>Hello World</h1>
+
+<div class="container">
+  <div class="row">
+    {% include my-resume.html %}
+  </div>
+</div>

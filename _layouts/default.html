@@ -5,11 +5,13 @@
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    {% seo %}
   </head>
-  {% include navbar.html %}
-  <body class="container">
-    <br>
-    {{ content}}
+  <body>
+    {% include navbar.html %}
+    <div class="ml-3 mr-3 mt-2">
+      {{ content }}
+    </div>
     {% include footer-custom.html %}
   </body>
 </html>
