@@ -1,0 +1,84 @@
+- since: november, 2021
+  until: present
+  company_name: Agap2IT, Portugal
+  job_title: Backend Software Engineer
+  job_description: 'Working with a team responsible for building a distributed system connecting to European central systems.
+  It`s a classified project. I have been working with Java, Spring, Docker, Docker Swarm, KeyCloack, Maven, 
+  Nexus Repository, Jenkins, Gitlab'
+
+- since: march, 2021
+  until: november, 2021
+  company_name: Agap2IT, Portugal
+  job_title: Software Engineer
+  job_description: 'As an Agap2IT employee, I worked at Timwe company. I was one of those responsible for building a 
+  new software by copying all logic from the old Java software. The mission was to keep all logic as-is, on top of 
+  cutting-edge technologies, although new features were added. I was able to get knowledge of how a huge event-driven 
+  system that has many integrations and so many components deals with hundreds-thousands of requests per second. 
+  After this project, I went to another project, for a brazilian telecom operator client called Vivo, I was one of 
+  those responsible for creating, testing and helping others to improve the core system and all integrations for it. 
+  Working with: kubernetes, docker, java, redis, soap, angular, javascript, oracle database, postgresql, event-driven, 
+  TDD, rest, api, web development, kong'
+
+- since: january, 2020
+  until: february, 2021
+  company_name: LabsIt, Brazil
+  job_title: Backend Software Engineer
+  job_description: 'I worked for Conductor as a software engineer. I was one of those responsible for creating a new 
+  product based on the existing structure of other products of the company, implemented new features of this new product, 
+  helped to design new architectures for some parts of the product, acted in several bugs of the legacy system and new ones'
+
+- since: june, 2019
+  until: december, 2020
+  company_name: Virtus, Brazil
+  job_title: Full Stack Web Developer
+  job_description: 'I worked in Intelbras project which is a test manager web application called QAP for Intelbras devices. 
+  QAP runs network tests in Intelbras devices for quality assurance. I was responsible for planning and developing features, 
+  review merge requests, resolving bugs, help team collaborators figured out their problems by working with Java 8+, 
+  Spring, Spring-boot, Spring Cloud, Spring JPA, Hibernate, Angular 7, Typescript, Javascript, PostgreSQL, PgAdmin 4, 
+  Docker, Docker-Compose, Jenkins, Python, Robot Framework, FTP Servers, JMeter, Shell Script'
+
+- since: march, 2018
+  until: may, 2019
+  company_name: Virtus, Brazil
+  job_title: Full Stack Web Developer
+  job_description: 'I worked in Showkase project which is a marketplace for minors salers get online presence and 
+  sales product in online way. I was responsible for planning and developing features, review merge requests, resolving bugs, 
+  help team collaborators figured out their problems by working with Java 8+, Spring, Spring-boot, Spring JPA, Hibernate, 
+  Spring Cloud Netflix, Eureka, Zuul, Actuator, Microservices architecture, JHipster generator, AngularJs, Javascript, 
+  PostgreSQL, Docker, Docker-compose, NGinx, Apache Server, PHP, Htaccess, SEO techniques, Jaspersoft, PGadmin, Shell Script. 
+  Also, I was responsible for create and maintain automated deployment script and health of project in production environment'
+
+- since: april, 2017
+  until: february, 2018
+  company_name: Virtus, Brazil
+  job_title: Full Stack Web Developer
+  job_description: 'I worked in MOBI project which is responsible to process and delivery all traffic tickets in João Pessoa city. 
+  I was responsible for planning and developing features, creating new solutions for application architecture, 
+  resolving bugs and implementing all end-to-end (e2e) tests for this application. Working with Java 8+, Spring, 
+  Spring-boot, Spring JPA, Hibernate, AngularJs, Javascript, Jaspersoft, Docker, Docker-compose, Postgresql, Selenium, 
+  Cucumber, Protractor'
+
+- since: august, 2016
+  until: april, 2017
+  company_name: LSD, Brazil
+  job_title: Full Stack Engineer and DevOps
+  job_description: 'As Full-stack Engineer, I worked at LSD (Distributed System Laboratory) working with web development 
+  for Lenovo and RedHat, focusing in integrations of XClarity Lenovo software and ManageIQ. I was responsible for 
+  planning and developing features, create architecture solutions for infrastructure and application software model 
+  process. Working with Ruby on Rails, PostgreSQL, Memcached, Docker, Angular, Jenkins'
+
+- since: april, 2016
+  until: december, 2016
+  company_name: LSD, Brazil
+  job_title: Infrastructure Engineer
+  job_description: 'As DevOps intern, I worked at LAVID (Laboratório de Aplicações de Vídeo Digital/UFPB) working with 
+  Docker, Docker-Compose, Kubernetes, CoreOS, NGinx, Shell Script. Helping improves Infrastructure of Official 
+  Rio 2016 - Olympics application by adding new features in infrastructure stack servers, adding health checks 
+  triggers, adding failures tolerance and recovery contexts for servers'
+
+- since: october, 2015
+  until: august, 2016
+  company_name: LSD, Brazil
+  job_title: Infrastructure Engineer
+  job_description: 'As Develop Intern, I worked at Phoebus Tecnologia working with Java language program by resolving 
+  bugs and developing new features. Working with Java, SQL Server, MySQL Server'

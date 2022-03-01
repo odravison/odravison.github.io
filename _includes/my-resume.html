@@ -10,9 +10,19 @@
     </div>
   </div>
 </div>
-<div class="col-md-8 col-sm-12" style="display: flex;">
-  <div class="col-md-1 bg-primary" style="height: 400px;">
+<div class="col-md-8 col-sm-12 timeline">
+  {% for item in site.data.experiences %}
+  <div class="entry">
+    <div class="title">
+      <h3>{{item.since}} - {{item.until}}</h3>
+      <p>{{item.company_name}}</p>
+    </div>
+    <div class="body">
+      <p>{{item.job_title}}</p>
+      <ul>
+        <li>{{item.job_description}}</li>
+      </ul>
+    </div>
   </div>
-  <div class="col-md-11 bg-dark" style="height: 400px;">
-  </div>
+  {% endfor %}
 </div>
