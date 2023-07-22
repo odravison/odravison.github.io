@@ -12,6 +12,8 @@ import { ReadingComponent } from './pages/reading/reading.component';
 import { PostsComponent } from './pages/posts/posts.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { BookCardComponent } from './components/book-card/book-card.component';
+import { ContentComponent } from './layout/content/content.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AboutMeComponent } from './pages/about-me/about-me.component';
     ReadingComponent,
     PostsComponent,
     ProjectsComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    BookCardComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
