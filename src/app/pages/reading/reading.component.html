@@ -1,7 +1,7 @@
 <div class="container reading-layout content">
   <h3>Books I'm enjoying</h3>
   <br />
-  <div class="list-group" *ngFor="let book of books">
-    <app-book-card [selectedBook]="book"></app-book-card>
+  <div class="list-group" *ngFor="let book of books; last as isLast;">
+    <app-book-card [selectedBook]="book" [isLast]="isLast"></app-book-card>
   </div>
 </div>

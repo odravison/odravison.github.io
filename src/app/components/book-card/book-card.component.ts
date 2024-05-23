@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class BookCardComponent {
 
   @Input() selectedBook: any;
+  @Input() isLast!: boolean;
 
 }
