@@ -1,0 +1,36 @@
+title: dev, Odra!
+domain: odravison.github.io
+email: oamaraljr@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Hi, my name is Odravison but you can call me Odra
+  I'm a software engineer
+author:
+  name: "Odra"
+  email: "some@icloud.com"
+  url: "https://odravison.github.io/"
+baseurl: "" # the subpath of your site, e.g. /blog
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+# Build settings
+future: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Custom variables
+owner : "Odravison"
+year : "2025"
