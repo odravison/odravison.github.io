@@ -1,5 +1,5 @@
 ---
-title: 'Dangers of Names and Values: How Python deals with its "variables"'
+title: 'Dangers of Names and Values in Python: How Python deals with its "variables"'
 published: true
 ---
 
@@ -43,5 +43,5 @@ If we assign other name to the name **_my_var_**, let say `other_var = my_var` t
 
 The image below can ilustrate it better:
 
-![](https://github.com/odravison/odravison.github.io/blob/main/not_included_assets/assigning_two_names_same_value.png)
+![](https://github.com/odravison/odravison.github.io/blob/main/not_included_assets/assigning_two_names_same_value.png?raw=true)
 
