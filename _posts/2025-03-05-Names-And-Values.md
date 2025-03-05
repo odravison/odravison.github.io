@@ -3,8 +3,6 @@ title: 'Dangers of Names and Values: How Python deals with its "variables"'
 published: true
 ---
 
-# Dangers of Names and Values: How Python deals with its "variables"
-
 Hi there, in this article you will read about some interested findings about how Python deals with names and values (variables) and why it is totally different from languages like Java, C, and others.
 
 #### [](#index) Index
