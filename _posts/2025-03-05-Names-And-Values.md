@@ -5,20 +5,20 @@ published: true
 
 Hi there, in this article you will read about some interested findings about how Python deals with names and values, convertionally called as variables, and why it is totally different from languages like Java, C, and others.
 
-### [](#index) Index
+### Index
 
-1.  Context
-1.  Variable creation in Java
-1.  Variable creation in Python
-1.  The danger in Python
-2.  The long story, short
+1.  [Context](#context)
+1.  [Variable creation in Java](#variable-creation-in-java)
+1.  [Variable creation in Python](#variable-creation-in-python)
+1.  [The danger in Python](#the-danger-in-python)
+2.  [The long story, short](#the-long-story-short)
 
 
-### [](#context) Context
+### Context
 
 When working with Java and Python, it is crucial to understand the fundamental differences in how these languages handle variable creation and memory management. While both languages provide mechanisms for referencing values in memory, their approaches differ significantly due to their underlying paradigms.
 
-### [](#Variable-creation-in-Java) Variable creation in Java
+### Variable creation in Java
 
 How a variable is created in languages like Java? By declaring its type, naming it and then assigning a value to it. This is needed because Java is a statically typed language, meaning that variable types must be explicitly declared at compile time.
 
@@ -35,7 +35,7 @@ What do happen behind the scenes is that when you do `int myVar = 10;`, Java cre
 
 Within a Java variable you can find its data type and its data value, the variable has its information. Which you will see that isn't the same for Python "variables".
 
-### [](#Variable-creation-in-Java) Variable creation in Python
+### Variable creation in Python
 
 To understand that you should know that Python doesn't use the term variable, instead it uses the term _**name**_ that would be conventionally called a variable. So in Python we say a _**name**_ refers to a **_value_** or an _**object**_, but the _**name**_ doesn't contain the _**value/object**_, like a variable do. A good analogy is saying that your name refers to you but it don't contains you. There may even be multiple names for the same thing, just as you may have given a name and a nickname. A _**value**_ is a particular instance of data in memory.
 
@@ -72,7 +72,7 @@ It can be ilustrated as below:
 As you can see, in the second line, `cloth_price` and `blouse` both reference the same integer object 10. After the line `cloth_price = 13` is executed, in this case since integers are immutable in Python, any modification (`cloth_price = cloth_price + 3`) results in `cloth_price` refering to a new object.
 
 
-### [](#The-Danger-In-Python) The Danger in Python
+### The Danger in Python
 
 Until here we've discussed about how to assign a name to a value using Python and how it differs from Java and other languages. In this particular example we used a `int` object data type which is one of many immutable data types in Python, such as `bool`, `float`, `tuple`, `string`, and `Unicode`. Those types can't suffer mutation, therefore, every time you do some operation in one of its data, Python creates another _value_ in the memory as result of your operation over the original _value_.
 
@@ -112,7 +112,7 @@ The builtin `sorted()` Python's function receives a list and returns a new list,
 
 
 
-### [](#The-long-story,-short) The long story, short
+### The long story, short
 
 To avoid to get you too exhausted, let wrap up what we have learned about names and values in Python, its difference with Java and why mutable values in Python should be treated carefully:
 
