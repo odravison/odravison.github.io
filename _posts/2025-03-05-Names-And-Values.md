@@ -134,6 +134,8 @@ To avoid to get you too exhausted, let wrap up what we have learned about names 
 
 I hope you liked that content, this is the result of my continous reasearch and learning path to become a senior Python developer.
 
+* * *
+
 
 Sources:
 **Ned Batchelder - Facts and Myths about Python names and values - PyCon 2015**: https://youtu.be/_AEJHKGk9ns
