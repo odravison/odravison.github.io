@@ -7,7 +7,7 @@ Hi there, in this article you will read about some interested findings about how
 
 ### [](#index) Index
 
-1.  [] (#context) Context
+1.  Context
 1.  Variable creation in Java
 1.  Variable creation in Python
 1.  The danger in Python
