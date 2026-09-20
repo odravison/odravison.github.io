@@ -1,0 +1,210 @@
+/*
+   CV page — reuses the site palette from _default_colors.scss
+*/
+
+@import "default_colors";
+
+.cv {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+}
+
+/* Sidebar
+*/
+
+.cv-side section {
+  margin: 0 0 30px 0;
+}
+
+.cv-photo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px solid $conifer;
+  box-shadow: 0 0 5px rgba(181, 232, 83, 0.2),
+              0 0 10px rgba(181, 232, 83, 0.1);
+  margin: 0 0 20px 0;
+}
+
+.cv-name {
+  font-size: 22px;
+  margin: 0 0 5px 0;
+}
+
+.cv-role {
+  color: $gulf-stream;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+}
+
+.cv-download {
+  margin: 0 0 30px 0;
+}
+
+.cv-note {
+  color: $grey;
+  font-size: 13px;
+}
+
+.cv-contact,
+.cv-langs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+    list-style-image: none;
+    margin: 0 0 10px 0;
+    word-break: break-word;
+  }
+}
+
+/* Section headings — echo the "odra@home:~$" prompt in the site header
+*/
+
+.cv-heading {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $conifer;
+  border-bottom: 1px dashed $conifer;
+  padding: 0 0 5px 0;
+  margin: 0 0 15px 0;
+
+  &::before {
+    content: "$ ";
+    color: $gulf-stream;
+  }
+}
+
+/* Job / education entries
+*/
+
+.cv-job {
+  margin: 0 0 25px 0;
+}
+
+.cv-job-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0 15px;
+
+  h3 {
+    font-size: 16px;
+    color: $gallery;
+    margin: 0;
+  }
+}
+
+.cv-date {
+  color: $grey;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.cv-org {
+  color: $gulf-stream;
+  font-size: 14px;
+  margin: 2px 0 8px 0;
+}
+
+.cv-job p {
+  margin: 0 0 10px 0;
+}
+
+/* Tag / chip lists — same recipe as code.highlighter-rouge in base.scss
+*/
+
+.cv-tags,
+.cv-chips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+
+  li {
+    list-style: none;
+    list-style-image: none;
+    background: rgba(0, 0, 0, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2px;
+    padding: 0 6px;
+    font-size: 13px;
+    color: $bouquet;
+  }
+}
+
+.cv-chips li {
+  color: $silver-chalice;
+  border-radius: 50px;
+  padding: 0 10px;
+}
+
+@media (max-width: 800px) {
+  .cv {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .cv-photo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cv-date {
+    white-space: normal;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+    color: #111;
+  }
+
+  header, footer, .cv-download {
+    display: none;
+  }
+
+  .cv {
+    grid-template-columns: 240px 1fr;
+  }
+
+  .cv-name,
+  .cv-job-head h3 {
+    color: #111;
+    text-shadow: none;
+  }
+
+  .cv-heading {
+    color: #111;
+    border-bottom-color: #999;
+    text-shadow: none;
+  }
+
+  .cv-role,
+  .cv-org {
+    color: #555;
+  }
+
+  .cv-tags li,
+  .cv-chips li {
+    background: none;
+    border-color: #bbb;
+    color: #333;
+  }
+
+  a {
+    color: #111;
+    text-shadow: none;
+  }
+}
