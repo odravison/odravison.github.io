@@ -1,6 +1,8 @@
 ---
 title: 'How Asynchrony and Concurrency works in Python'
 published: false
+description: "How asynchrony and concurrency work in Python: threads, futures and asyncio explained with practical examples."
+tags: [python, concurrency, asyncio, threading]
 ---
 
 Hello again, this
@@ -50,7 +52,7 @@ If we assign other name to the name `cloth_price`, let say `blouse = cloth_price
 
 The image below can ilustrate it better:
 
-![](https://github.com/odravison/odravison.github.io/blob/main/not_included_assets/assigning_two_names_same_value.png?raw=true)
+![Diagram: the Python names cloth_price and blouse both referring to the same int object 10 in memory]({{ '/assets/images/posts/python-two-names-same-value.png' | relative_url }})
 
 What should happen if we modify the value referenced using the name `cloth_price`, will modify the value referenced by the name `blouse`? The answer is **NO**!
 
@@ -67,7 +69,7 @@ print(blouse) ## prints 10
 ```
 It can be ilustrated as below:
 
-![](https://github.com/odravison/odravison.github.io/blob/main/not_included_assets/assigning_two_names_different_values.png?raw=true)
+![Diagram: after reassignment, cloth_price refers to a new int object 13 while blouse still refers to 10]({{ '/assets/images/posts/python-two-names-different-values.png' | relative_url }})
 
 As you can see, in the second line, `cloth_price` and `blouse` both reference the same integer object 10. After the line `cloth_price = 13` is executed, in this case since integers are immutable in Python, any modification (`cloth_price = cloth_price + 3`) results in `cloth_price` refering to a new object.
 

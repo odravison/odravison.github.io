@@ -44,9 +44,9 @@ li {
 }
 
 /* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
+   header       - container
+   .site-title  - project name
+   .header-link - navigation links
 */
 
 header {
@@ -64,7 +64,15 @@ header {
   display: inline;
 }
 
-header h1 {
+.site-title,
+.header-link {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+header .site-title {
   font-size: 24px;
   line-height: 1.5;
   margin: 0;
@@ -79,20 +87,23 @@ header h1 {
   -webkit-font-smoothing: antialiased;
 }
 
-header h2 {
+header .header-link {
   font-size: 18px;
   font-weight: 300;
   color: #666;
+  letter-spacing: -0.03em;
 }
 
 /* Main Content
 */
 
 #main_content {
+  display: block;
+  margin: 0 0 20px 0;
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
-section img {
+#main_content img {
   max-width: 100%
 }
 
