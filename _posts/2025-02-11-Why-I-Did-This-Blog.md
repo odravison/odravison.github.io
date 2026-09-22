@@ -1,6 +1,8 @@
 ---
 title: Why I did this blog
 published: true
+description: "Why Odravison (Odra) Amaral, a software engineer with a Java and Python background, started a blog about technology and the human side of tech careers."
+tags: [career, blogging, software-engineering]
 ---
 
 Some time ago, I was thinking about start a blog of mine so I can write some cool stuff. Firstly I thought to write about technology - it would be a techblog - but then I realized that advancing in a carrer isn't just about technical skills - overtime, humans challenges become just as important, and in tech industry isn't different.

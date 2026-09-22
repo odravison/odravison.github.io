@@ -1,6 +1,9 @@
 ---
 permalink: /404.html
 layout: page
+title: Page not found
+sitemap: false
+noindex: true
 ---
 
 <style type="text/css" media="screen">
@@ -21,5 +24,5 @@ layout: page
 <div class="container">
   <h1>Ops, looks like you found a dead Link</h1>
 
-  <img src="assets/dead-link.svg" alt="dead-link-image">
+  <img src="{{ '/assets/dead-link.svg' | relative_url }}" alt="Illustration of a broken link">
 </div>
